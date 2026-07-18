@@ -202,3 +202,160 @@
     font-size: 14px;
     display: block;
 }
+
+/* --- secure your spot Section --- */
+.secure-your-spot-section {   
+    width: 100%;
+    max-width: 1551px;
+    height: 718px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pricing-section {
+    max-width: 1440px;
+    height: 668px;
+    margin: 0 auto;
+}
+
+.pricing-parent {
+    margin-bottom: 48px;
+}
+
+.pricing-parent h1 {
+    font-size: 55px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #000102;
+}
+
+.pricing-parent p {
+    font-size: 12px;
+    color: #575757;
+}
+
+.container-3 {
+    display: flex;
+    width: 100%;
+    max-width: 1320px;
+    height: 492px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    flex-wrap: wrap; 
+}
+
+.pricing-card {
+    border-radius: 12px;
+    padding: 32px;
+    width: 370.66px;
+    height: 444px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+}
+
+.pricing-pro-card {
+    background-color: #0D1B2A;
+    border-color: #0D1B2A;
+    color: #FFFFFF;
+}
+
+.plan {
+    font-size: 12px;
+    font-weight: 500;
+    color: #888888;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.pricing-pro-card .plan {
+    color: #93C5FD;
+}
+
+.price {
+    font-size: 48px;
+    color: #0D1B2A;
+}
+
+.pricing-pro-card .price {
+    color: #FFFFFF;
+}
+
+.pricing-text {
+    font-size: 12px;
+    color: #888888;
+    margin-bottom: 24px;
+}
+
+.pricing-pro-card .pricing-text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #E5E7EB;
+    margin-bottom: 30px;
+}
+
+.pricing-pro-card .divider {
+    border-top-color: #000000;
+}
+
+.list-item {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    flex-grow: 1; 
+}
+
+.list-item li {
+    font-size: 12px;
+    color: #333333;
+    margin-bottom: 12px;
+    padding-left: 6px;
+}
+
+.pricing-pro-card .list-item li {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.pricing-card .list-item li::marker {
+    color: #2563EB; 
+}
+
+.pricing-pro-card .list-item li::marker {
+    color: #60A5FA;
+}
+
+.pricing-button {
+    width: 100%;
+    max-width: 280px;  
+    padding: 10px 0;  
+    font-size: 12px;    
+    margin: 0 auto; 
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.standard-button {
+    background-color: transparent;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+}
+
+.pro-button {
+    background-color: #2563EB;
+    color: #FFFFFF;
+    border: none;
+}
+
+.team-button {
+    background-color: transparent;
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
