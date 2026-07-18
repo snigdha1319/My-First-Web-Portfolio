@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.common-button {
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    padding: 8px 8px;
+    border-radius: 12px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+} 
+
+.common-button:hover, .pricing-button:hover {
+    background: #008000;
+}
+
+.first-btn {
+    width: 188px;
+    height: 48px;
+    font-size: 16px;
+}
+
+.navbar-section {
+    width: 100%;
+    max-width: 1551px;
+    margin: 0 auto;
+    height: 98px;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;  
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.container {
+    width: 100%;
+    max-width: 1320px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo img {
+    width: 32px;
+    height: 32px;
+}
+
+.logo h4 {
+    font-size: 18px;
+    font-weight: 600; 
+}
+
+.navbar-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar-menu a { 
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #575757;
+}
+
+.navbar-menu a:hover {
+    color: #2563EB;
+}
